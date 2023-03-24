@@ -5,7 +5,7 @@ const navOpen = document.querySelector('.open');
 const navClose = document.querySelector('.close');
 
 function openNav(){
-  navlinks.style.top = "30%";
+  navlinks.style.top = "40%";
   navlinks.style.left = "60%";
   navOpen.style.display = "none";
   navClose.style.display = "block";
