@@ -130,6 +130,7 @@ h6 {
 */
 .get-started-btn {
   margin-left: 22px;
+  margin-right: 22px;
   background: #5fcf80;
   color: #fff;
   border-radius: 50px;
@@ -243,7 +244,7 @@ h6 {
 .navbar .dropdown .dropdown ul {
   top: 0;
   left: calc(100% - 30px);
-  visibility: hidden;
+   visibility: hidden; 
 }
 
 .navbar .dropdown .dropdown:hover>ul {
@@ -1512,4 +1513,38 @@ section {
   background: #3ac162;
   color: #fff;
   text-decoration: none;
+}
+
+.icon{
+  display: none;
+  font-size: 30px;
+}
+
+@media screen and (max-width:991px){
+
+  .icon{
+    display: block;
+}
+.close{
+    display: none;
+}
+
+.navlinks{
+    position: fixed;
+    left: 60%;
+    top: -40%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    width: 300px;
+    height: 50vh;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(to right, rgb(191, 250, 240),rgb(252, 254, 255));
+    box-shadow: 10px 10px 40px rgba(12, 14, 13, 0.352),
+                -10px -10px 40px rgba(13, 16, 15, 0.221);
+     transition:  .8s;
+     border-radius: 10px;
+    
+}
 }
